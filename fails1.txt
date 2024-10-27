@@ -1,2 +1,14 @@
-Šis ir vienkāršs teksta fails. 
+Šis ir vienkāršs teksta fails.
 To var izmantot piezīmēm vai dažādiem īsiem teksta pierakstiem.
+
+1. Izmantojot šo failu, var saglabāt:
+   - Kontaktinformāciju
+   - Uzdevumu sarakstu
+   - Vienkāršas piezīmes
+2. Piemēram:
+   - Vārds: Anna
+   - Telefons: 123-4567
+   - E-pasts: anna@example.com
+
+Šo informāciju var brīvi rediģēt, pievienot vai izdzēst.
+
