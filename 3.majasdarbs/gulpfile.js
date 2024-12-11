@@ -2,6 +2,8 @@ import gulp from "gulp";
 import htmltidy from "gulp-htmltidy";
 import autoprefixer from "gulp-autoprefixer";
 import csslint from "gulp-csslint";
+import babel from "gulp-babel";
+import jshint from "gulp-jshint";
 
 
 export function html() {
@@ -24,5 +26,18 @@ export function css() {
     .pipe(gulp.dest("build"));
 }
 
-export default gulp.series(html, css);
+export function js() {
+  return gulp
+    .src("src/main.js")
+    .pipe(jshint())
+    .pipe(jshint.reporter("default"))
+    .pipe(
+      babel({
+        presets: ["@babel/env"],
+      }),
+    )
+    .pipe(gulp.dest("build"));
+}
 
+
+export default gulp.series(html, css, js);
