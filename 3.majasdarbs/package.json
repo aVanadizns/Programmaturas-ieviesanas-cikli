@@ -1,0 +1,27 @@
+{
+  "name": "3.majasdarbs",
+  "version": "1.0.0",
+  "description": "Testi priekš projekta??",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aVanadizns/Programmaturas-ieviesanas-cikli.git"
+  },
+  "keywords": [
+    "priekš",
+    "mācībām"
+  ],
+  "author": "Artūrs Vanadziņš",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aVanadizns/Programmaturas-ieviesanas-cikli/issues"
+  },
+  "homepage": "https://github.com/aVanadizns/Programmaturas-ieviesanas-cikli#readme",
+  "type": "module",
+  "devDependencies": {
+    "gulp": "^5.0.0"
+  }
+}
