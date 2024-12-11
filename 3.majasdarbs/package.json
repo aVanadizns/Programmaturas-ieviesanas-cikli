@@ -23,6 +23,12 @@
   "type": "module",
   "devDependencies": {
     "gulp": "^5.0.0",
+    "gulp-autoprefixer": "^9.0.0",
+    "gulp-csslint": "^1.0.1",
     "gulp-htmltidy": "^0.2.4"
-  }
+  },
+"browserslist": [
+  "last 5 versions"
+]
+
 }
