@@ -22,6 +22,7 @@
   "homepage": "https://github.com/aVanadizns/Programmaturas-ieviesanas-cikli#readme",
   "type": "module",
   "devDependencies": {
-    "gulp": "^5.0.0"
+    "gulp": "^5.0.0",
+    "gulp-htmltidy": "^0.2.4"
   }
 }
