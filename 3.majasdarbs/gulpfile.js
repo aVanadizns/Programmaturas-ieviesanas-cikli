@@ -8,7 +8,7 @@ import jshint from "gulp-jshint";
 
 export function html() {
   return gulp
-    .src("index.html")
+    .src("index.php")
     .pipe(htmltidy())
     .pipe(gulp.dest("build"));
 }
