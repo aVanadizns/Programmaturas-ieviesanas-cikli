@@ -15,7 +15,7 @@ export function html() {
 
 export function css() {
   return gulp
-    .src("src/style.css")
+    .src("style.css")
     .pipe(csslint())
     .pipe(csslint.formatter("compact"))
     .pipe(
