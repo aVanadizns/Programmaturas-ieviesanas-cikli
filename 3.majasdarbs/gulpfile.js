@@ -28,7 +28,7 @@ export function css() {
 
 export function js() {
   return gulp
-    .src("src/main.js")
+    .src("main.js")
     .pipe(jshint())
     .pipe(jshint.reporter("default"))
     .pipe(
