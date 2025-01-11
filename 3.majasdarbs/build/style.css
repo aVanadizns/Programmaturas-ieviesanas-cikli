@@ -1,0 +1,48 @@
+.nav_saite {
+    margin-left: 8px;
+}
+
+/* preču katalogs */
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+    height: 330px;
+    position: relative;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  #precesRamis {
+    width: 178px;
+    height: 178px;
+    line-height: 178px;
+    text-align: center;
+  }
+
+  div.gallery img {
+    max-width: 178px;
+    max-height: 178px;
+    vertical-align: middle;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+  /* beidzas preču katalogs */
+
+  #vienasPrecesBilde {
+    max-width: 400px;
+    max-height: 300px;
+  }
+
+  .ielikt_groza {
+    position: absolute;
+    bottom: 0px;
+    margin: 10px 35px;
+  }
